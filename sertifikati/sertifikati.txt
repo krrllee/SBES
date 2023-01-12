@@ -1,0 +1,24 @@
+SERTIFIKATI
+
+ISSUER (password 1234)
+1. makecert -n "CN=ComplaintSystemCA" -r -sv ComplaintSystemCA.pvk ComplaintSystemCA.cer
+
+Complaint System Service sertifikat (password 1234)
+2. makecert -sv WCFComplaintService.pvk -iv ComplaintSystemCA.pvk -n "CN=wcfcomplaintservice" -pe -ic ComplaintSystemCA.cer WCFComplaintService.cer -sr localmachine -ss My -sky exchange
+3. pvk2pfx.exe /pvk WCFComplaintService.pvk /pi 1234 /spc WCFComplaintService.cer /pfx WCFComplaintService.pfx
+
+Complaint System Nadzor sertifikat (password 1234)
+2. makecert -sv WCFComplaintNadzor.pvk -iv ComplaintSystemCA.pvk -n "CN=wcfcomplaintnadzor;OU=Nadzor" -pe -ic ComplaintSystemCA.cer WCFComplaintNadzor.cer -sr localmachine -ss My -sky exchange
+3. pvk2pfx.exe /pvk WCFComplaintNadzor.pvk /pi 1234 /spc WCFComplaintNadzor.cer /pfx WCFComplaintNadzor.pfx
+
+Complaint System Korisnik sertifikat (password 1234)
+2. makecert -sv WCFComplaintKorisnik.pvk -iv ComplaintSystemCA.pvk -n "CN=wcfcomplaintkorisnik;OU=Korisnik" -pe -ic ComplaintSystemCA.cer WCFComplaintKorisnik.cer -sr localmachine -ss My -sky exchange
+3. pvk2pfx.exe /pvk WCFComplaintKorisnik.pvk /pi 1234 /spc WCFComplaintKorisnik.cer /pfx WCFComplaintKorisnik.pfx
+
+Digitalni potpis
+2. makecert -sv WCFKorisnik_Sign.pvk -iv ComplaintSystemCA.pvk -n "CN=wcfcomplaintkorisnik_sign" -pe -ic ComplaintSystemCA.cer WCFKorisnik_Sign.cer -sr localmachine -ss My -sky signature
+3. pvk2pfx.exe /pvk WCFKorisnik_Sign.pvk /pi 1234 /spc WCFKorisnik_Sign.cer /pfx WCFKorisnik_Sign.pfx
+
+VAZNO:
+Napraviti tri Windows usera sa imenima koja se nalaze u CN sertifikata, i napraviti grupe koje se nalaze u OU sertifikata (ubaciti usere u svoje grupe)
+Server obavezno pokretati iz Visual Studia koji je otvoren kao admin (run as administrator), zbog Event Loggera
