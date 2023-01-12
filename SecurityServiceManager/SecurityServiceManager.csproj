@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="BannedUser.cs" />
     <Compile Include="BannedWord.cs" />
+    <Compile Include="CertificateManager.cs" />
+    <Compile Include="CustomAuthorizationPolicy.cs" />
+    <Compile Include="CustomPrincipal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
