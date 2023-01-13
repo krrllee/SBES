@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfComplaint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Complaint>
-    <Id>f2bb6b63-3bfc-4dbe-9bc6-74c1fdfb0d74</Id>
-    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
-    <Message>yo</Message>
-  </Complaint>
-  <Complaint>
-    <Id>87cced44-76b3-4171-898d-591bcef03098</Id>
-    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
-    <Message>haha</Message>
-  </Complaint>
-  <Complaint>
-    <Id>862d995c-9666-4aaa-bed5-2589195f8973</Id>
-    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
-    <Message>sadsda</Message>
-  </Complaint>
-  <Complaint>
-    <Id>d692acaa-7a2f-46a1-8416-a093fa477cea</Id>
-    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
-    <Message>lol</Message>
-  </Complaint>
-  <Complaint>
     <Id>b0bbab6e-46ba-4c76-8b22-7b3485cc6eee</Id>
     <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
     <Message>lol</Message>
