@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBannedUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BannedUser>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+  </BannedUser>
+</ArrayOfBannedUser>
