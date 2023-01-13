@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfComplaint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Complaint>
+    <Id>f2bb6b63-3bfc-4dbe-9bc6-74c1fdfb0d74</Id>
+    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
+    <Message>yo</Message>
+  </Complaint>
+  <Complaint>
+    <Id>87cced44-76b3-4171-898d-591bcef03098</Id>
+    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
+    <Message>haha</Message>
+  </Complaint>
+  <Complaint>
+    <Id>862d995c-9666-4aaa-bed5-2589195f8973</Id>
+    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
+    <Message>sadsda</Message>
+  </Complaint>
+  <Complaint>
+    <Id>d692acaa-7a2f-46a1-8416-a093fa477cea</Id>
+    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
+    <Message>lol</Message>
+  </Complaint>
+  <Complaint>
+    <Id>b0bbab6e-46ba-4c76-8b22-7b3485cc6eee</Id>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+    <Message>lol</Message>
+  </Complaint>
+  <Complaint>
+    <Id>70843699-8885-40d0-8a81-47439a8a0875</Id>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+    <Message>asd</Message>
+  </Complaint>
+  <Complaint>
+    <Id>759c8990-ec7a-4092-a87b-7c0f0306a301</Id>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+    <Message>asd</Message>
+  </Complaint>
+  <Complaint>
+    <Id>4592ac31-2d65-42c6-a5d1-ab45eced9365</Id>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+    <Message />
+  </Complaint>
+  <Complaint>
+    <Id>800dedbd-d994-440f-964f-00b64fbda024</Id>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+    <Message>asddzx</Message>
+  </Complaint>
+  <Complaint>
+    <Id>7343c369-d2a5-4b5d-aef7-47692ea4f18a</Id>
+    <Username>CN=wcfcomplaintkorisnik, OU=Korisnik; 99994AEA97126FACD132E41153F67FFD11DA19F2</Username>
+    <Message>lol</Message>
+  </Complaint>
+  <Complaint>
+    <Id>39112a95-7636-4002-9b0e-e202a51117e6</Id>
+    <Username>CN=wcfcomplaintkorisnik, OU=Korisnik; 99994AEA97126FACD132E41153F67FFD11DA19F2</Username>
+    <Message>Q</Message>
+  </Complaint>
+</ArrayOfComplaint>

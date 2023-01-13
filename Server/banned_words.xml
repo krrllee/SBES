@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBannedWord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BannedWord>
+    <Word>asd</Word>
+  </BannedWord>
+  <BannedWord>
+    <Word>lol</Word>
+  </BannedWord>
+  <BannedWord>
+    <Word>haha</Word>
+  </BannedWord>
+</ArrayOfBannedWord>

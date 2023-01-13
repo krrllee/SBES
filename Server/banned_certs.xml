@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBannedUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BannedUser>
+    <Username>blabla</Username>
+  </BannedUser>
+  <BannedUser>
+    <Username>wcfclient</Username>
+  </BannedUser>
+  <BannedUser>
+    <Username>CN=wcfclient, OU=User; 432273E7B2737D7FEA7CB7C62830EDD30299980F</Username>
+  </BannedUser>
+  <BannedUser>
+    <Username>CN=wcfclientkorisnik, OU=Korisnik; 24A3CC0CA79D9011B790476156A506EE220F310A</Username>
+  </BannedUser>
+</ArrayOfBannedUser>
